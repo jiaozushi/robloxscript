@@ -3436,7 +3436,7 @@ FreeEmotes_Button.MouseButton1Click:Connect(function()
 	if not FreeEmotesEnabled then
 		FreeEmotesEnabled = true
 		SendNotify("JIAOZI","./.")
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/jiaozushi/robloxscript/refs/heads/main/allemotes"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/miraclegoddd/SorenJecho-/refs/heads/main/sorenjechoemoteV2.lua"))()
 	end
 end)
 
